@@ -21,7 +21,7 @@ is-it-maintained-open-issues = { repository = "bekh6ex/rust-smartcrop" }
 default =["image"]
 
 [dependencies]
-image = { version = ">=0.17.0,<0.20.0", optional = true }
+image = { version = ">=0.20.0", optional = true }
 clap = { version = "^2.31", optional = true }
 
 [dev-dependencies]
